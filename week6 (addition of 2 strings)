@@ -1,0 +1,8 @@
+package main
+import "fmt"
+func main() {
+ var a, b string
+ fmt.Print("Enter two strings: ")
+ fmt.Scan(&a, &b)
+ fmt.Println("Result:", a+b)
+}
