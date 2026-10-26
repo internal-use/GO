@@ -1,0 +1,22 @@
+File 1: student/student.go
+
+package student
+type Student struct {
+ Name string
+ Roll int
+}
+
+
+
+Files 2: main.go
+
+package main
+import (
+ "fmt"
+ "student/student"
+)
+func main() {
+ s := student.Student{Name: "Ravi", Roll: 101}
+ fmt.Println("Name:", s.Name)
+ fmt.Println("Roll:", s.Roll)
+}
