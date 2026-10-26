@@ -1,0 +1,15 @@
+package main
+import "fmt"
+func main() {
+ var n int
+ num := 1
+ fmt.Print("Enter rows: ")
+ fmt.Scan(&n)
+ for i := 1; i <= n; i++ {
+ for j := 1; j <= i; j++ {
+ fmt.Print(num, " ")
+ num++
+ }
+ fmt.Println()
+ }
+}
