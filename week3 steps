@@ -1,0 +1,10 @@
+Experiment 3: Execution Steps
+Step 1: Create a folder named StudentProgram.
+Step 2: Open the terminal in that folder.
+Step 3: Initialize the Go module:
+go mod init student
+Step 4: Create a folder named student and create student.go inside it.
+Step 5: Create main.go inside the StudentProgram folder.
+Step 6: Save both files with the correct code.
+Step 7: Execute the program:
+go run .
